@@ -1,9 +1,15 @@
 import React from 'react'
-
+import { Background } from './components'
 function App() {
   return (
-    <div className='font-bold font-epilogue subpixel-antialiased text-9xl'>App</div>
+    <div>
+    <div> 
+      <Background />
+    </div>
+    </div>
+   
   )
 }
+
 
 export default App
