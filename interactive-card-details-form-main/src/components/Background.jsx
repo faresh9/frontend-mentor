@@ -1,7 +1,17 @@
-import React from 'react'
-import background from '../initial/images/bg-main-desktop.png';
+import React from 'react';
+import backgroundImage from '../initial/images/bg-main-desktop.png'; // Replace this with the correct image path
+
 function Background() {
- return <img src={background} alt="background" />;
+  return (
+    <div className="flex">
+      <div
+        className="h-screen w-1/3 bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      ></div>
+      <div className="h-screen w-1/2 bg-white"></div>
+    </div>
+  );
 }
 
-export default Background
+export default Background;
+ 
