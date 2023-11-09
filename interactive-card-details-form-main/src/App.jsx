@@ -1,5 +1,5 @@
 import React from 'react'
-import { Background } from './components'
+import { Background, Card } from './components'
 function App() {
   return (
     <div>
