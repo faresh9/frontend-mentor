@@ -1,6 +1,6 @@
 // CreditCardForm.jsx
 import React, { useState } from 'react';
-import Card from './Card'; // Assuming you have a Card component to display the images
+import Card from './Card';
 
 const CreditCardForm = () => {
   const [formData, setFormData] = useState({

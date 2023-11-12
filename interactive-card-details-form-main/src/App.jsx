@@ -1,15 +1,13 @@
-import React from 'react'
-import { Background, Card } from './components'
-function App() {
+// App.jsx
+import React from 'react';
+import AppRouter from './AppRouter';
+
+const App = () => {
   return (
     <div>
-    <div> 
-      <Background />
+      <AppRouter />
     </div>
-    </div>
-   
-  )
-}
+  );
+};
 
-
-export default App
+export default App;
